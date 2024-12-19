@@ -1,10 +1,23 @@
+@use "card";
+
 body {
   font-family: Helvetica;
 }
 
-#root {
-  height: 100vh;
+// #root {
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.flat-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flat { 
+  flex: 50% 0 0; 
+  cursor: pointer; 
+  border: 6px solid transparent; 
 }
