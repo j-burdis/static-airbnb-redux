@@ -21,3 +21,7 @@ body {
   cursor: pointer; 
   border: 6px solid transparent; 
 }
+
+.selected { 
+  border: 6px dashed red; 
+}
