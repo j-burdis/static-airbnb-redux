@@ -1,3 +1,5 @@
+import { SET_FLATS } from '../actions';
+
 export default function(state, action) {
   if (state === undefined) {
     return [];
@@ -10,7 +12,7 @@ export default function(state, action) {
   // }
 
   switch(action.type) {
-    case 'SET_FLATS':
+    case SET_FLATS:
     return action.payload;
     default:
     return state;
